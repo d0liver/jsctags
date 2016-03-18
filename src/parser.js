@@ -338,9 +338,9 @@ Parser.prototype.onNode = function (name, node, parent) {
     return;
   }
 
-  if (!isDefaultType(node['!type'])) {
-    return;
-  }
+  // if (!isDefaultType(node['!type'])) {
+  //   return;
+  // }
 
   var tag = {
     id: uuid.v1(),
